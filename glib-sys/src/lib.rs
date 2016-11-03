@@ -19,7 +19,7 @@ pub type gconstpointer = *const c_void;
 pub type gpointer = *mut c_void;
 
 #[repr(C)]
-pub struct Volatile<T>(T);
+pub struct Volatile<T>(pub T);
 
 
 pub type GArray_autoptr = gpointer;
