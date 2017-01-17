@@ -8,11 +8,11 @@ libc = "0.2"
 
 [dependencies.glib-sys]
 path = "../glib-sys"
-version = "0.3.1"
+version = "0.3.2"
 
 [dependencies.gobject-sys]
 path = "../gobject-sys"
-version = "0.3.1"
+version = "0.3.2"
 
 [features]
 v2_34 = []
@@ -21,6 +21,9 @@ v2_38 = ["v2_36"]
 v2_40 = ["v2_38"]
 v2_42 = ["v2_40"]
 v2_44 = ["v2_42"]
+v2_46 = ["v2_44"]
+v2_48 = ["v2_46"]
+v2_50 = ["v2_48"]
 
 [lib]
 name = "gio_sys"
@@ -35,4 +38,4 @@ license = "MIT"
 links = "gio"
 name = "gio-sys"
 repository = "https://github.com/gtk-rs/sys"
-version = "0.3.1"
+version = "0.3.2"

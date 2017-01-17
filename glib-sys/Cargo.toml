@@ -12,6 +12,9 @@ v2_36 = ["v2_34"]
 v2_38 = ["v2_36"]
 v2_40 = ["v2_38"]
 v2_44 = ["v2_40"]
+v2_46 = ["v2_44"]
+v2_48 = ["v2_46"]
+v2_50 = ["v2_48"]
 
 [lib]
 name = "glib_sys"
@@ -26,4 +29,4 @@ license = "MIT"
 links = "glib"
 name = "glib-sys"
 repository = "https://github.com/gtk-rs/sys"
-version = "0.3.1"
+version = "0.3.2"
