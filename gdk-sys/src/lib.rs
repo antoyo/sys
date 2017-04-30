@@ -3655,6 +3655,7 @@ pub struct GdkPoint {
 }
 
 #[repr(C)]
+#[derive(Clone)]
 pub struct GdkRGBA {
     pub red: c_double,
     pub green: c_double,
